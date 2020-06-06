@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Interfaces.Create"
+    android:background="@drawable/backgroundhome"
+    android:orientation="vertical"
+    android:weightSum="4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:gravity="center">
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="POP"
+            android:id="@+id/POPB"
+            android:background="@drawable/custom_button"></Button>
+
+        <Button
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ROCK"
+            android:id="@+id/ROCKB"
+            android:background="@drawable/custom_button_reverse"></Button>
+        <Button
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="RANDOM"
+            android:id="@+id/RANDOM"
+            android:background="@drawable/custom_button_reverse2"></Button>
+    </LinearLayout>
+
+</LinearLayout>

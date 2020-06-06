@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Interfaces.Login"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/backggroundsignup"
+    android:weightSum="7">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="3"
+        android:background="@drawable/form_background"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="60dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:id="@+id/usernamet"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="USERNAME"
+            android:paddingTop="20dp"
+
+            ></EditText>
+
+        <EditText
+            android:id="@+id/passwordt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:hint="PASSWORD"></EditText>
+
+        <EditText
+            android:id="@+id/namet"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:hint="FULL NAME"></EditText>
+
+        <Button
+            android:id="@+id/signupB"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/custom_button_random"
+            android:text="Sign up"
+            android:textColor="#ffffff"
+            android:textSize="20dp"></Button>
+    </LinearLayout>
+</LinearLayout>

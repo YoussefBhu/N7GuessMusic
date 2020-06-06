@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Interfaces.Quiz"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/backgroundquiz"
+    android:weightSum="6">
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:background="@drawable/form_background"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/name"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Party by : "
+            android:textSize="20dp"
+            android:gravity="center"></TextView>
+        <TextView
+            android:id="@+id/code"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Code : "
+            android:textSize="20dp"
+            android:gravity="center"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:weightSum="5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_marginRight="40dp"
+            android:text="go"
+            android:src="@drawable/play"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/custom_quiz_button">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/replay"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/custom_quiz_button"
+            android:src="@drawable/replay"></ImageButton>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <Button
+                android:id="@+id/choice1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/custom_button_random"
+                android:text="RANDOM"
+                android:textColor="#ffffff"
+                android:textSize="20dp"></Button>
+
+            <Button
+                android:id="@+id/choice2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_button_reverse"
+                android:text="RANDOM"
+                android:textColor="#ffffff"
+                android:textSize="20dp"></Button>
+
+            <Button
+                android:id="@+id/choice3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_button_random"
+                android:text="RANDOM"
+                android:textColor="#ffffff"
+                android:textSize="20dp"></Button>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
